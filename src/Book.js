@@ -11,7 +11,7 @@ class Book extends Component {
                     onChange={(event) => this.props.moveBook(
                         this.props.book, event.target.value
                     )}
-                    value={this.props.bookLocation}
+                    value={this.props.book.shelf}
 
                     >
 
