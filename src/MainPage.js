@@ -4,6 +4,7 @@ import Book from './Book';
 
 class MainPage extends Component {
     render() {
+        console.log(this.props.books);
         return (
             <div className="list-books">
                 <div className="list-books-title">
