@@ -10,7 +10,11 @@ class Book extends Component {
                 <select 
                     onChange={(event) => this.props.moveBook(
                         this.props.book, event.target.value
-                    )}>
+                    )}
+                    value={this.props.bookLocation}
+
+                    >
+
                     <option value="move" disabled>Move to...</option>
                     <option value="currentlyReading">Currently Reading</option>
                     <option value="wantToRead">Want to Read</option>
