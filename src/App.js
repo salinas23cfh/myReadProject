@@ -1,5 +1,5 @@
 import React from 'react'
-import * as BooksAPI from './BooksAPI'
+import * as BooksAPI from './BooksAPI';
 
 import SearchPage from './SearchPage';
 import MainPage from './MainPage';
@@ -31,11 +31,11 @@ class BooksApp extends React.Component {
     return (
       
       <div className="app">
-        <MainPage
+        {/*<MainPage
           books={this.state.books}
           moveBook={this.moveBook}
-        />
-
+        />*/}
+        <SearchPage />
       </div>
     )
   }
