@@ -48,14 +48,22 @@ class SearchPage extends Component {
             <ol className="books-grid">
               {
                 this.state.searchedBooks.map(searchedBooks => {
+                  let shelf = "none";
+
+                  this.props.books.map(book =>(
+                    book.id === searchedBooks.id ?
+                    shelf = book.shelf : ""
+                  ));
+
                   return(
                     <li key={searchedBooks.id}>
                       <Book
                         book={searchedBooks}
                         moveBook={this.props.moveBook}
+                        bookLocation={shelf}
                       />
                     </li>
-                  )
+                  );
                 })
                 
               }
