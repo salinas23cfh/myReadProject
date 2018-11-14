@@ -90,3 +90,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+
+# Installation
+1. clone project
+2. Run npm install in terminal
+3. npm start
+
+# Resources 
+1. Udacity Starter Code
+2. Student Hub
+3. Fend Resources Walk through
